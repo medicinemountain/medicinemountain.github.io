@@ -1,2 +1,2 @@
-medicinemountain.github.io
-==========================
+medicinemountain
+================
