@@ -83,10 +83,47 @@
   </style>
 </head>
 <body>
+
 	<div class="parent">
 		<div class="child">
-      <a href="https://www.youtube.com/channel/UCJBbalfVNoXjiK0V4_D1OXA">medicine mountain</a></div>
+      <a href="https://www.youtube.com/channel/UCJBbalfVNoXjiK0V4_D1OXA">medicine mountain</a>
+    </div>
 	</div>
-	<a class="footer" href="http://madewithloveinurbanachampaign.org/">Made with &hearts; in Urbana-Champaign</a>
+
+  <footer>
+	  <a class="footer" href="http://madewithloveinurbanachampaign.org/">Made with &hearts; in Urbana-Champaign</a>
+  </footer>
+
 </body>
+<!--
+After reading Ken Wheeler's page, http://thekenwheeler.herokuapp.com, with the following method
+for displaying full-screen, one-page, vertically & horizontally centered content:
+...
+<style>
+  section.scene {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  section.scene div.container {
+    position: relative;
+    text-align: center;
+    top: 50%;
+  }
+  section.scene.one {
+    background: #08c;
+  }
+</stye>
+
+<section class="scene one">
+  <div class="container">
+    <h1>Hi. I'm Ken.</h1>
+  </div>
+</section>
+...
+for some reason, implementing his approach above in this medicine mountain page resulted in the
+page having scroll on both the x and y axis. While Ken's code looks great and easy, I don't think
+I implemented it well enough. I'm documenting it here so that I can refer back to it in the future.
+-->
 </html>
